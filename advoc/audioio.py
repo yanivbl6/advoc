@@ -1,7 +1,8 @@
-try:
-  import librosa
-except ImportError:
-  pass
+##try:
+import librosa
+##except ImportError:
+##  print(ImportError)
+##  pass
 import numpy as np
 from scipy.io.wavfile import read as spwavread, write as spwavwrite
 
